@@ -56,7 +56,7 @@ cd /var/www/html
 yum install git -y
 
 # Clone the project GitHub repository to the current directory
-git clone https://github.com/aosnotes77/host-a-static-website-on-aws.git
+git clone https://github.com/Simran-Kaur1996/host-a-static-website-on-aws.git
 
 # Copy all files, including hidden ones, from the cloned repository to the Apache web root
 cp -R host-a-static-website-on-aws/. /var/www/html/
@@ -93,7 +93,7 @@ This setup provides a scalable, fault-tolerant, and secure environment to host a
 ### How to Use This Project:
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/aosnotes77/host-a-static-website-on-aws.git
+   git clone https://github.com/Simran-Kaur1996/host-a-static-website-on-aws.git
    ```
 2. **Deploy Resources on AWS**:
    Follow the steps in the project to set up your VPC, EC2 instances, Auto Scaling Group, and other AWS services.
@@ -101,4 +101,4 @@ This setup provides a scalable, fault-tolerant, and secure environment to host a
 3. **Monitor Your Website**:
    Use the SNS alerts to monitor the scaling activities and health of the website.
 
----
+
